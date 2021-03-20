@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+
+{
+    int number, remainder;
+    number=70;
+    remainder = number % 2;
+    if(remainder == 0){
+            printf("The number is even.");
+    }
+    else{
+            printf("The number is odd.");
+    }
+    return 0;
+}
